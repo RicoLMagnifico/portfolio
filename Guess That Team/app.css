@@ -15,3 +15,7 @@ h1 {
 .card {
     background-color: #457B9D;
 }
+
+form {
+    font-size: 30px;
+}
