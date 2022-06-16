@@ -1,0 +1,53 @@
+body {
+    background-color: #54291D;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#slot7 {
+    max-width: 120px;
+    max-height: 120px;
+    padding-left: 30px;
+}
+
+.navbar {
+    background-color: #bb9457 !important;
+    display: flex;
+    flex: row;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #485129;
+}
+
+.carousel-item {
+    max-height: auto;
+}
+
+h2 {
+    justify-content: center;
+}
+
+.card {
+    background-color: #bb9457;
+}
+
+.container {
+    display: flex;
+}
+
+.chefimg {
+    aspect-ratio: 4/3;
+    display: flex;
+    max-width: auto;
+    max-height: auto;
+}
+
+.card-img-top {
+    width: 100%;
+    object-fit: cover;
+}
