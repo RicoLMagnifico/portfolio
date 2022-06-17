@@ -1,9 +1,5 @@
-body {
-    background-color: #457B9D;
-}
-
 h1 {
-    color: #F1FAEE;
+    color: #457B9D;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 100;
 }
@@ -13,9 +9,41 @@ h1 {
 }
 
 .card {
-    background-color: #457B9D;
+    background-color: #FFFFFF;
 }
 
 form {
     font-size: 30px;
+}
+
+
+body {
+    background-color: #FFFFFF;
+    display: block;
+}
+
+button {
+    background-color: #457B9D;
+    color: white;
+}
+
+@media (max-width: 500px) {
+
+    .display-1 {
+        font-size: 50px;
+        font-weight: 400;
+    }
+
+    button {
+        padding: 35px 42px;
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .card-group {
+        display: flex;
+    }
 }
