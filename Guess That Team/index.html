@@ -5,6 +5,7 @@
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <title>Guess That Team</title>
     <link rel="stylesheet" href="app.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 </head>
@@ -42,7 +43,7 @@
                 <option value="cin">Bengals</option>
                 <option value="buf">Bills</option>
                 <option value="den">Broncos</option>
-                <option value="cin">Browns</option>
+                <option value="cle">Browns</option>
                 <option value="tb">Buccaneers</option>
                 <option value='arz'>Cardinals</option>
                 <option value='lac'>Chargers</option>
@@ -71,8 +72,12 @@
                 <option value='min'>Vikings</option>
             </select>
         </form>
-        <button id="tryAnother" class="btn-lg">Try Another</button>
-        <button id="answer" class="btn-lg">Submit Answer</button>
+        <div id="userInput">
+            <button id="tryAnother" class="btn-lg">Try Another</button>
+            <button id="answer" class="btn-lg">Submit Answer</button>
+            <h2>Correct Guesses: <span id="correctScore">0</span></h2>
+            <h2>Incorrect Guesses: <span id="inCorrectScore">0</span></h2>
+        </div>
     </div>
 
     <script src="script.js"></script>
