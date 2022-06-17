@@ -45,5 +45,7 @@ button {
 
     .card-group {
         display: flex;
+        height: 230px;
+        width: auto;
     }
 }
