@@ -27,6 +27,13 @@ button {
     color: white;
 }
 
+.card-group {
+    display: flex;
+    height: 450px;
+    width: auto;
+}
+
+
 @media (max-width: 578px) {
 
     .display-1 {
