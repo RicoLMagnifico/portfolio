@@ -27,20 +27,20 @@ button {
     color: white;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 578px) {
 
     .display-1 {
-        font-size: 50px;
+        font-size: 40px;
         font-weight: 400;
     }
 
     button {
-        padding: 35px 42px;
+        padding: 20px 42px;
         font-size: 25px;
     }
 
     h2 {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .card-group {
