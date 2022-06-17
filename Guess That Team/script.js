@@ -33,6 +33,10 @@ const was = ['#5A1414', '#FFB612', '#FFFFFF', 'commanders', 'was'];
 
 let nflColors = [arz, atl, bal, buf, car, chi, cin, cle, dal, den, det, gb, hou, ind, jac, kc, lac, lar, mia, min, ne, no, nyg, nyj, lv, phi, pit, sf, sea, tb, ten, was];
 var arrayTeam = 0;
+let correctDisplay = 0;
+let incorrectDisplay = 0;
+const correctScore = document.querySelector('#correctScore');
+const incorrectScore = document.querySelector('#inCorrectScore');
 
 function randTeam() {
     arrayTeam = nflColors[Math.floor(Math.random() * 32)];
@@ -41,15 +45,22 @@ function randTeam() {
     document.getElementById('card3').style.backgroundColor = arrayTeam[2];
     console.log(arrayTeam);
 }
+randTeam();
 
 let response = document.getElementById('mySelect');
 
 
 function rightWrong() {
     if (response.value === arrayTeam[4]) {
-        alert("Correct! Try Another!")
+        alert("Correct! Try Another!");
+        correctDisplay += 1;
+        correctScore.textContent = correctDisplay;
+        randTeam();
+
     } else {
         alert("Incorrect! Try Again!")
+        incorrectDisplay += 1;
+        incorrectScore.textContent = incorrectDisplay;
     }
 };
 
